@@ -1,0 +1,495 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+#head{
+	color: #6bb8bf;
+	width: 800px;
+	margin-left: 170px;
+}
+
+#bar{
+	background-color: black;
+	height: 5px;
+	width: 800px;
+	margin-left: 170px;
+}
+
+#information{
+ 	background-color: #6bb8bf;
+ 	height: 500px;
+ 	width: 800px;
+ 	margin-left: 170px;
+}
+#mainImg{
+	border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    margin-top: 164px;
+    margin-left: 62px;
+    border: 3px solid;
+    float: left;
+}
+.container{
+	font-family: 'Noto Sans KR', sans-serif;
+}
+.title{
+	font-size: 22px;
+    text-decoration:underline;
+    color: antiquewhite;
+}
+#info{
+	float: left;
+	margin-top: 30px;
+	margin-left: 150px;
+}
+.empty{
+	width: 30px;
+}
+#id{
+	margin-top: 10px;
+}
+.basicTitle{
+	font-weight: bold;
+}
+.infotable{
+	margin-top: 13px;
+}
+#licensetable{
+	margin-top: 13px;
+}
+#maininfo{
+	margin-top: 20px;
+}
+
+
+/* archive */
+
+#archive{
+	background-color: #153a45;
+	height: 440px;
+ 	width: 800px;
+ 	margin-left: 170px;
+}
+#chepter{
+	color: white;
+	font-family: 'Black Han Sans', sans-serif;
+	text-align: center;
+}
+.archiveelement{
+	background-color: white;
+    width: 300px;
+    height: 200px;
+    margin-left: 65px;
+    margin-top: 77px;
+    border-radius: 6%;
+    float: left;
+}
+#github{
+	width: 127px;
+    margin-left: 74px;
+}
+#code{
+	margin-top: 4px;
+    margin-left: 21px;
+    font-weight: bolder;
+}
+.codeEle{
+	margin-left: 21px;
+}
+#blogelement{
+	background-color: white;
+    width: 300px;
+    height: 200px;
+    margin-left: 435px;
+    margin-top: 86px;
+    border-radius: 6%;
+}
+#blog{
+	width: 127px;
+    margin-left: 74px;
+    margin-top: 19px;
+}
+.blogEle{
+	margin-left: 21px;
+}
+
+
+
+/* skill */
+
+#skill{
+	background-color: #f96937;
+	height: 675px;
+ 	width: 800px;
+ 	margin-left: 170px;
+ 	
+}
+#chepter2{
+	color: white;
+	font-family: 'Black Han Sans', sans-serif;
+	text-align: center;
+}
+#skills{
+	width: 500px;
+	background-color: white;
+	height: 500px;
+	margin-left: 153px;
+	margin-top: 50px;
+	border-radius: 24px;
+	box-shadow: 1rem 1rem 1rem 0 rgb(68 68 68 / 20%);
+}
+
+#logos{
+	width: 414px;
+	margin-left: 44px;
+	margin-top: 16px;
+}
+
+
+/* projects */
+
+#project{
+	background-color: #545775;
+	height: 3865px;
+	width: 800px;
+	margin-left: 170px;
+	
+}
+
+#chepter3{
+	color: white;
+	font-family: 'Black Han Sans', sans-serif;
+	text-align: center;
+}
+#projects{
+	width: 727px;
+	background-color: white;
+	height: 1000px;
+	margin-left: 36px;
+	margin-top: 50px;
+	border-radius: 24px;
+	box-shadow: 1rem 1rem 1rem 0 rgb(68 68 68 / 20%);
+	
+}
+.projectTitle{
+	font-family: 'Black Han Sans', sans-serif;
+	text-align: center;
+}
+
+.explain{
+	font-size: 20px;
+    color: coral;
+    font-weight: bolder;
+
+}
+
+#margin{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style-type: none;
+}
+#slideShow{
+    width: 700px;
+    height: 300px;
+    position: relative;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+.boardImg{
+    width: 450px;
+    height: 300px;
+}
+
+.slides{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 2300px;
+    transition: left 0.5s ease-out;
+}
+.slides li:first-child{
+    margin-left: 100px;
+}
+
+.slides li:not(:last-child){
+    float: left; margin-right: 100px;
+}
+
+.controller span{
+    position:absolute;
+    background-color: transparent;
+    color: black;
+    text-align: center;
+    border-radius: 50%;
+    padding: 10px 20px;
+    top: 50%;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+
+.controller span:hover{
+    background-color: rgba(128, 128, 128, 0.11);
+}
+
+.prev{
+    left: 10px;
+}
+
+/* 이전 화살표에 마우스 커서가 올라가 있을때 이전 화살표가 살짝 왼쪽으로 이동하는 효과*/
+.prev:hover{
+    transform: translateX(-10px);
+}
+.next{
+    right: 10px;
+}
+/* 다음 화살표에 마우스 커서가 올라가 있을때 이전 화살표가 살짝 오른쪽으로 이동하는 효과*/
+.next:hover{
+    transform: translateX(10px);
+}
+.url{
+	margin-left:  15px;
+}
+
+/* project2 */
+
+#project2{
+	width: 727px;
+	background-color: white;
+	height: 918px;
+	margin-left: 36px;
+	margin-top: 50px;
+	border-radius: 24px;
+	box-shadow: 1rem 1rem 1rem 0 rgb(68 68 68 / 20%);
+	
+}
+
+/* slide2 */
+#margin2{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#slideShow2{
+    width: 700px;
+    height: 300px;
+    position: relative;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+.slides2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 2300px;
+    transition: left 0.5s ease-out;
+}
+.slides2 li:first-child{
+    margin-left: 100px;
+}
+
+.slides2 li:not(:last-child){
+    float: left; margin-right: 100px;
+}
+
+.controller2 span{
+    position:absolute;
+    background-color: transparent;
+    color: black;
+    text-align: center;
+    border-radius: 50%;
+    padding: 10px 20px;
+    top: 50%;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+
+.controller2 span:hover{
+    background-color: rgba(128, 128, 128, 0.11);
+}
+
+.prev2{
+    left: 10px;
+}
+
+
+.prev2:hover{
+    transform: translateX(-10px);
+}
+.next2{
+    right: 10px;
+}
+
+.next2:hover{
+    transform: translateX(10px);
+}
+
+
+
+/* project3 */
+
+#project3{
+	width: 727px;
+	background-color: white;
+	height: 820px;
+	margin-left: 36px;
+	margin-top: 50px;
+	border-radius: 24px;
+	box-shadow: 1rem 1rem 1rem 0 rgb(68 68 68 / 20%);
+	
+}
+
+/* slide3 */
+#margin3{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#slideShow3{
+    width: 700px;
+    height: 300px;
+    position: relative;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+.slides3{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 2300px;
+    transition: left 0.5s ease-out;
+}
+.slides3 li:first-child{
+    margin-left: 100px;
+}
+
+.slides3 li:not(:last-child){
+    float: left; margin-right: 100px;
+}
+
+.controller3 span{
+    position:absolute;
+    background-color: transparent;
+    color: black;
+    text-align: center;
+    border-radius: 50%;
+    padding: 10px 20px;
+    top: 50%;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+
+.controller3 span:hover{
+    background-color: rgba(128, 128, 128, 0.11);
+}
+
+.prev3{
+    left: 10px;
+}
+
+/* 이전 화살표에 마우스 커서가 올라가 있을때 이전 화살표가 살짝 왼쪽으로 이동하는 효과*/
+.prev3:hover{
+    transform: translateX(-10px);
+}
+.next3{
+    right: 10px;
+}
+/* 다음 화살표에 마우스 커서가 올라가 있을때 이전 화살표가 살짝 오른쪽으로 이동하는 효과*/
+.next3:hover{
+    transform: translateX(10px);
+}
+/* project4 */
+
+#project4{
+	width: 727px;
+	background-color: white;
+	height: 872px;
+	margin-left: 36px;
+	margin-top: 50px;
+	border-radius: 24px;
+	box-shadow: 1rem 1rem 1rem 0 rgb(68 68 68 / 20%);
+	
+}
+
+/* slide4 */
+#margin4{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style-type: none;
+}
+#slideShow4{
+    width: 700px;
+    height: 300px;
+    position: relative;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+.slides4{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 2300px;
+    transition: left 0.5s ease-out;
+}
+.slides4 li:first-child{
+    margin-left: 100px;
+}
+
+.slides4 li:not(:last-child){
+    float: left; margin-right: 100px;
+}
+
+.controller4 span{
+    position:absolute;
+    background-color: transparent;
+    color: black;
+    text-align: center;
+    border-radius: 50%;
+    padding: 10px 20px;
+    top: 50%;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+
+.controller4 span:hover{
+    background-color: rgba(128, 128, 128, 0.11);
+}
+
+.prev4{
+    left: 10px;
+}
+
+/* 이전 화살표에 마우스 커서가 올라가 있을때 이전 화살표가 살짝 왼쪽으로 이동하는 효과*/
+.prev4:hover{
+    transform: translateX(-10px);
+}
+.next4{
+    right: 10px;
+}
+/* 다음 화살표에 마우스 커서가 올라가 있을때 이전 화살표가 살짝 오른쪽으로 이동하는 효과*/
+.next4:hover{
+    transform: translateX(10px);
+}
+
+#foot{
+	
+	background-color: #222222;
+	height: 134px;
+	width: 800px;
+	margin-left: 170px;
+	
+}
+.wh{
+	color: white;
+	text-align: center;
+}
