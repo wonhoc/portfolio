@@ -1,8 +1,22 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+#headdiv{
+	background-color: #6bb8bf;
+	height: 500px;
+text-align: center;
+}
+
+body{
+	font-family: 'Noto Sans KR', sans-serif;
+
+}
 #head{
-	color: #6bb8bf;
+	display: inline-block;
+	color: white;
+	font-weight: bolder;
+	margin-top: 100px;
+	
 	
 }
 
@@ -12,7 +26,6 @@
 }
 
 #information{
- 	background-color: #6bb8bf;
  	height: 500px;
  	position: relative;
 }
@@ -26,13 +39,12 @@
     border: 3px solid;
     float: left;
 }
-.container{
-	font-family: 'Noto Sans KR', sans-serif;
-}
+
+	
 .title{
 	font-size: 22px;
     text-decoration:underline;
-    color: antiquewhite;
+    color: #6bb8bf;
 }
 #info{
 	float: left;
@@ -58,9 +70,7 @@
 #maininfo{
 	margin-top: 20px;
 }
-table{
-	color: white;
-}
+
 
 /* archive */
 
@@ -489,4 +499,5 @@ li{
     text-align: center;
     position: relative;
     top: 36%;
+    color: white;
 }
