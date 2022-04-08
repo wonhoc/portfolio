@@ -26,7 +26,7 @@ body{
 }
 
 #information{
- 	height: 500px;
+ 	height: 550px;
  	position: relative;
 }
 #mainImg{
@@ -262,7 +262,7 @@ li{
 #project2{
 	width: 727px;
 	background-color: white;
-	height: 695px;
+	height: 635px;
 	margin: 0 auto;
 	margin-top: 50px;
 	border-radius: 24px;
